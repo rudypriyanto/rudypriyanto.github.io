@@ -1,0 +1,116 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  padding: 2rem;
+}
+
+/* Navbar */
+.colored-navbar {
+  background-color: black;
+  color: white;
+}
+
+.logo_img {
+  max-height: 60px;
+  width: auto;
+  max-width: 140px;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-carousel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption {
+  padding-bottom: 10rem;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+/* Content */
+.content {
+  padding: 50px;
+}
+
+.content-column {
+  padding: 3% 2%;
+}
+
+.content-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.Spacing-bottom {
+  height: 1.45rem;
+}
+
+/*About Us*/
+#about-us {
+  position: relative;
+  color: black;
+  background-image: url(Aboutusbackground.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us-text {
+  padding: 45px 75px 40px;
+}
+
+.our-foto {
+  width: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*Contact Us*/
+#contact-us {
+  background-color: black;
+  padding: 45px 75px 40px;
+}
+
+/*Content Materi */
+.background-content {
+  background-image: url(programerdesk.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.materi-belajar {
+  font-family: sans-serif;
+  padding: 1rem 1rem;
+  width: 75%;
+  text-align: left;
+}
+
+/*Video*/
+.video {text-align: center;}
